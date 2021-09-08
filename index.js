@@ -188,8 +188,9 @@ Use the filterByWord function below to do the following:
 function filterByWord(byword,string){
   let newarr=[];
   
-  
-  for (let i=0;i<=byword.lengyh;i++){
+  const sum=byword.length
+  for (let i=0;i<sum;i++){
+    console.log(sum)
     if (byword[i].includes(string)){
       
       newarr.push(byword[i]);
@@ -199,7 +200,7 @@ function filterByWord(byword,string){
     
  return newarr;
 }
-console.log(filterByWord(originalFlavors, "Chocolate"));
+console.log(filterByWord(originalFlavors,'Chocolate'));
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
 
