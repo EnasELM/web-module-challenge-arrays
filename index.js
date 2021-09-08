@@ -189,7 +189,7 @@ function filterByWord(byword,string){
   let newarr=[];
   
   
-  for (let i=0;i<=byword.length;i++){
+  for (let i=0;i<=byword.lengyh;i++){
     if (byword[i].includes(string)){
       
       newarr.push(byword[i]);
